@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "American Typewriter";
+    src: url("../fonts/american_typewriter.eot") format("embedded-opentype"), url("../fonts/american_typewriter.woff") format("woff");
+}
+@font-face {
+    font-family: "Birch STD";
+    src: url("../fonts/BirchStd.otf") format("otf"), url("../fonts/Birch-Std.ttf") format("truetype"), url("../fonts/birch.woff") format("woff");
+}
+
+
+html, body{
+	height: 100%;
+}
+body{
+	background-color: #000;
+}
+.wrapper{
+	max-width: 1920px;
+	width: 100%;
+}
+.controls{
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 555;
+}
+.fa{
+	color: #ccc;
+	font-size: 22px;
+}
+.container .main-content{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+img{
+	max-width: 100%;
+}
+img.logo{
+	height: auto;
+}
+img.line{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	opacity: 0.5;
+}
+img.line1{
+	margin-top: 100px;
+	opacity: 0.5;
+}
+.title{
+	font-family: 'Birch STD', Arial;
+	color: #ccc;
+	font-size: 34px;
+	letter-spacing: 2px;
+}
+.logo.columns{
+	float: none;
+	margin: 0 auto;
+}
+.img-logo{
+	display: block;
+}
+a.download{
+	border: 2px solid grey;
+	border-radius: 10px;
+	color: #aaa;
+	display: block;
+	height: 40px;
+	line-height: 38px;
+	width: 120px;
+	margin: 0 5px;
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: 'Birch STD', Arial;
+	font-weight: lighter;
+	transition: all 0.5s ease-out;
+	margin: 20px auto;
+	margin-top: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+a.download:hover{
+	border-color: #7f2424;
+	box-shadow: 0 0 5px #7f2424;
+	color: white;
+}
+.links li{
+	list-style: none;
+	display: inline-block;
+}
+.links li a{
+	background-color: white;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	opacity: 0.4;
+	transition: opacity 0.3s ease-out;
+}
+.links li a:hover{
+	opacity: 1;
+}
+.links li a img{
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+}
